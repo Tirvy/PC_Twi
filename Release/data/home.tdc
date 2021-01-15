@@ -1,0 +1,225 @@
+#[SystemCard]
+#	id = 
+#	image=
+#	danger=
+#	[wormhole]
+#		type=
+#	[/wormhole]
+#	[planet]
+#		id = 
+#		production=
+#		influence=
+#		techcolour=
+#		techquantity=
+#		special=
+#	[/planet]
+#[/SystemCard]
+
+[SystemCard]
+	id = L1z1x_HS
+	[planet]
+		id = [0.0.0]
+		production=5
+		influence=0
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Norr_HS
+	[planet]
+		id = Trenlak
+		production=1
+		influence=0
+	[/planet]
+	[planet]
+		id = Quinarra
+		production=3
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Yssaril_HS
+	[planet]
+		id = Retillion
+		production=2
+		influence=3
+	[/planet]
+	[planet]
+		id = Shalloq
+		production=1
+		influence=2
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Letnev_HS
+	[planet]
+		id = Arc_prime
+		production=4
+		influence=0
+	[/planet]
+	[planet]
+		id = Wren_Terra
+		production=2
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Mentak_HS
+	[planet]
+		id = Moll_Primus
+		production=4
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = JolNar_HS
+	[planet]
+		id = Jol
+		production=1
+		influence=2
+	[/planet]
+	[planet]
+		id = Nar
+		production=2
+		influence=3
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Hacan_HS
+	[planet]
+		id = Arretze
+		production=2
+		influence=0
+	[/planet]
+	[planet]
+		id = Hercant
+		production=1
+		influence=1
+	[/planet]
+	[planet]
+		id = Kamdorn
+		production=0
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Sol_HS
+	[planet]
+		id = Jord
+		production=4
+		influence=2
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Xxcha_HS
+	[planet]
+		id = Archon_Ren
+		production=2
+		influence=3
+	[/planet]
+	[planet]
+		id = Archon_Tau
+		production=1
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Naalu_HS
+	[planet]
+		id = Maaluuk
+		production=0
+		influence=2
+	[/planet]
+	[planet]
+		id = Druua
+		production=3
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Yin_HS
+	[planet]
+		id = Darien
+		production=2
+		influence=4
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Saar_HS
+	[planet]
+		id = Lisis_II
+		production=1
+		influence=0
+	[/planet]
+	[planet]
+		id = Ragh
+		production=2
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Muaat_HS
+	[planet]
+		id = Muaat
+		production=4
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Winnu_HS
+	[planet]
+		id = Winnu
+		production=3
+		influence=4
+		techcolour=Yellow
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Arborec_HS
+	[planet]
+		id = Nestphar
+		production=3
+		influence=2
+		techcolour=Green
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Nekro_HS
+	[planet]
+		id = Mordai_II
+		production=4
+		influence=0
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Creuss_HS
+	[wormhole]
+		type=D
+	[/wormhole]
+[/SystemCard]
+
+[SystemCard]
+	id = LazaxMecatolRex
+	[planet]
+		id = Mecatol_Rex
+		production=3
+		influence=6
+	[/planet]
+[/SystemCard]

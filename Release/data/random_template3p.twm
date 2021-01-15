@@ -1,0 +1,54 @@
+#Основные параметры
+#Name - название карты (для выбора карты)
+#Players %p% - число игроков
+
+Name RandomTemplate3p
+players 3
+
+#Гексы
+#Fixed %id% %x% %y% - фиксированный гекс с id и координатами x, y
+#HomeSystem %n% %x% %y% - домашняя система игрока с номером n
+#ExtraHomeSystem %n% %x% %y% - дополнительный гекс для домашней системы (Креусс)
+#RandomEmpty %x% %y% - случайная пустая
+#RandomSpecial %x% %y% - случайная специальная
+#RandomPlanet %x% %y% - случайная планетная
+#RandomOnePlanet %x% %y% - случайная с одной планетой
+#RandomMultiPlanet %x% %y% - случайная с несколькими планетами
+#Remove %id% - убрать гекс из колоды
+ 
+<hexes>
+Remove Lodor
+Remove Quann
+RandomMultiPlanet		0 	3
+HomeSystem	1 		1	3
+ExtraHomeSystem 1 		2	5
+Fixed Empty04			-1	2
+Fixed EmptyWormHoleA		0	2
+RandomSpecial			1 	2
+RandomOnePlanet			2	2
+RandomOnePlanet			-3 	1
+Fixed Empty01			-2 	1
+RandomMultiPlanet		-1 	1
+Fixed HopesEnd			0 	1
+Fixed Empty02	 		1 	1
+HomeSystem	3		-3 	0
+ExtraHomeSystem 3		-5	0 		
+RandomSpecial 			-2 	0
+Fixed TsionBellatrix		-1 	0
+Fixed MecatolRex 		0 	0
+RandomMultiPlanet 		1 	0
+Fixed Empty05			2 	0
+RandomMultiPlanet 		-3 	-1
+Fixed EmptyWormHoleA01		-2 	-1
+RandomMultiPlanet 		-1 	-1
+Fixed SumerianArcturus		0 	-1
+Fixed EmptyWormHoleA02	 	1 	-1
+Fixed Empty06	 		-1 	-2
+Fixed Empty03	 		0 	-2
+RandomSpecial			1 	-2
+RandomMultiPlanet		2 	-2
+RandomOnePlanet			0	-3
+HomeSystem	2		1 	-3
+ExtraHomeSystem 2		2	-5 		
+Fixed Mallice 			4 	2
+</hexes>

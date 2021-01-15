@@ -1,0 +1,62 @@
+#Основные параметры
+#Name - название карты (для выбора карты)
+#Players %p% - число игроков
+
+Name Most_Balance_Map_2_1
+players 4
+
+#Гексы
+#Fixed %id% %x% %y% - фиксированный гекс с id и координатами x, y
+#HomeSystem %n% %x% %y% - домашняя система игрока с номером n
+#ExtraHomeSystem %n% %x% %y% - дополнительный гекс для домашней системы (Креусс)
+#RandomEmpty %x% %y% - случайная пустая
+#RandomSpecial %x% %y% - случайная специальная
+#RandomPlanet %x% %y% - случайная планетная
+#RandomOnePlanet %x% %y% - случайная с одной планетой
+#RandomMultiPlanet %x% %y% - случайная с несколькими планетами
+#Remove %id% - убрать гекс из колоды
+ 
+<hexes>
+Fixed Garbozia			-2 	3
+Fixed Quann			-1 	3
+Fixed Primor			0 	3
+Fixed Empty01	 		1	3
+Fixed CoorneeqResculon		-1	2
+Fixed Empty03 			0	2
+Fixed CentauriGral		1 	2
+Fixed Empty02 			-3 	1
+Fixed MeharXull			-2 	1
+Fixed Supernova01		-1 	1
+Fixed EmptyWormHoleA		0 	1
+Fixed AshtrothLokiAbaddon	1 	1
+Fixed Empty05	 		2 	1
+Fixed Tempesta 			-3 	0
+Fixed Asteroids01 		-2 	0
+Fixed SumerianArcturus 		-1 	0
+Fixed MecatolRex 		0 	0
+Fixed TsionBellatrix 		1 	0
+Fixed Asteroids02 		2 	0
+Fixed Industrex 		3 	0
+Fixed Empty06			-3 	-1
+Fixed DalBoothaXeehan		-2 	-1
+Fixed EmptyWormHoleB		-1 	-1
+Fixed IonStorm01		0 	-1
+Fixed RigelIRigelIIRigelIII 	1 	-1
+Fixed Empty09 			2 	-1
+Fixed TequRanTorkan 		-1 	-2
+Fixed Empty08	 		0 	-2
+Fixed MellonZohbat 		1 	-2
+Fixed VefutII 			-2 	-3
+Fixed Lodor 			-1 	-3
+Fixed Capha			0	-3
+Fixed Empty10	 		1 	-3
+HomeSystem 	1 		-2 	-2
+ExtraHomeSystem 1 		-4 	-3
+HomeSystem 	4 		2 	-2
+ExtraHomeSystem 4 		3 	-3
+HomeSystem 	3 		2 	2
+ExtraHomeSystem 3 		3 	3
+HomeSystem 	2 		-2 	2
+ExtraHomeSystem 2 		-4 	3
+Fixed Mallice 			4 	1
+</hexes>

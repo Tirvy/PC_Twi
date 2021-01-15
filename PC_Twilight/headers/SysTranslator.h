@@ -1,0 +1,41 @@
+class SystemTranslator{
+	FILE * fi;
+	char buffer[127];
+	static const char c_MakeSystem[];
+	static const char c_CloseSystem[];
+	static const char c_GetId[];
+	static const char c_GetImage[];
+	static const char c_GetDanger[];
+	static const char c_DangerAsteroids[];
+	static const char c_DangerIonStorm[];
+	static const char c_DangerSupernova[];
+	static const char c_DangerNebula[];
+	static const char c_DangerGravityRift[];
+	static const char c_MakeWormHole[];
+	static const char c_CloseWormHole[];
+	static const char c_GetWormHoleType[];
+	static const char c_WormHoleTypeA[];
+	static const char c_WormHoleTypeB[];
+	static const char c_WormHoleTypeC[];
+	static const char c_WormHoleTypeD[];
+	static const char c_MakePlanet[];
+	static const char c_ClosePlanet[];
+	static const char c_GetPlanetId[];
+	static const char c_GetPlanetProduction[];
+	static const char c_GetPlanetInfluence[];
+	static const char c_GetPlanetColor[];
+	static const char c_PlanetColorRed[];
+	static const char c_PlanetColorBlue[];
+	static const char c_PlanetColorGreen[];
+	static const char c_PlanetColorYellow[];
+	static const char c_GetPlanetTechpower[];
+	static const char c_GetPlanetSpecial[];
+	static const char c_PlanetSpecialST[];
+	static const char c_PlanetSpecialF[];
+	static const char c_PlanetSpecialGF[];
+	static const char c_PlanetSpecialS[];
+public:
+	SystemTranslator();
+	int translate(string filepath, SystemDeck ** toform);
+}
+_SystemTranslator;

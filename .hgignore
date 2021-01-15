@@ -1,0 +1,14 @@
+
+syntax: glob
+*.ncb
+*.user
+*.orig
+PC_Twilight\Release\*
+*.exe
+*.pdb
+*.pch
+Release\data\quicksaveCopy.tws
+*.rar
+*.cd
+*.twr
+*.tws

@@ -1,0 +1,64 @@
+#Основные параметры
+#Name - название карты (для выбора карты)
+#Players %p% - число игроков
+
+Name Fall_Of_Empire_4p
+players 4
+
+#Гексы
+#Fixed %id% %x% %y% - фиксированный гекс с id и координатами x, y
+#HomeSystem %n% %x% %y% - домашняя система игрока с номером n
+#ExtraHomeSystem %n% %x% %y% - дополнительный гекс для домашней системы (Креусс)
+#RandomEmpty %x% %y% - случайная пустая
+#RandomSpecial %x% %y% - случайная специальная
+#RandomPlanet %x% %y% - случайная планетная
+#RandomOnePlanet %x% %y% - случайная с одной планетой
+#RandomMultiPlanet %x% %y% - случайная с несколькими планетами
+#Remove %id% - убрать гекс из колоды
+ 
+<hexes>
+Fixed MellonZohbat		-2	3
+Fixed CentauriGral		-1	3
+Fixed LazarSakulag		0	3
+Fixed ArnorLor			1	3
+Fixed Empty01			-1	2
+Fixed Asteroids01		0	2
+Fixed Empty02			1	2
+Fixed NewAlbionStarpoint	-3	1
+Fixed Empty03			-2	1
+Fixed MeharXull			-1	1
+Fixed VefutII			0	1
+Fixed Nebula01			1	1
+Fixed Saudor			2	1
+Fixed TarMann			-2	0
+Fixed Quann			-1	0
+Fixed Mecatol			0	0
+Fixed Lodor			1	0
+Fixed ArinamMeer		2	0
+Fixed TequRanTorkan		-3	-1
+Fixed Supernova01		-2	-1
+Fixed QucenNRaron		-1	-1
+Fixed DalBoothaXeehan		0	-1
+Fixed Empty04			1	-1
+Fixed CoorneeqResculon		2	-1
+Fixed AbyzFria			-1	-2
+Fixed Empty05			0	-2
+Fixed Asteroids02		1	-2
+Fixed Empty06			-2	-3
+Fixed Wellon			-1	-3
+Fixed Thibah			0	-3
+Fixed BeregLirtaIV		1	-3
+Fixed Tempesta			-5	3
+Fixed EmptyWormHoleA		-4	3
+Fixed EmptyWormHoleB		-5	2
+Fixed Industrex			-4	2
+HomeSystem 	1 		-2 	-2
+ExtraHomeSystem 1 		-4 	-3
+HomeSystem 	2 		2 	-2
+ExtraHomeSystem 2 		3 	-3
+HomeSystem 	3 		2 	2
+ExtraHomeSystem 3 		3 	3
+HomeSystem 	4 		-2 	2
+ExtraHomeSystem 4 		-4 	3
+Fixed Mallice 			4 	1
+</hexes>

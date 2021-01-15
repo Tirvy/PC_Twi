@@ -1,0 +1,78 @@
+#[SystemCard]
+#	id = 
+#	image=
+#	danger=
+#	[wormhole]
+#		type=
+#	[/wormhole]
+#	[planet]
+#		id = 
+#		production=
+#		influence=
+#		techcolour=
+#		techquantity=
+#		special=
+#	[/planet]
+#[/SystemCard]
+
+[SystemCard]
+	id = Empty01
+[/SystemCard]
+
+[SystemCard]
+	id = Empty02
+[/SystemCard]
+
+[SystemCard]
+	id = Empty03
+[/SystemCard]
+
+[SystemCard]
+	id = Empty04
+[/SystemCard]
+
+[SystemCard]
+	id = Empty05
+[/SystemCard]
+
+[SystemCard]
+	id = Empty06
+[/SystemCard]
+
+[SystemCard]
+	id = Empty07
+[/SystemCard]
+
+[SystemCard]
+	id = Empty08
+[/SystemCard]
+
+[SystemCard]
+	id = Empty09
+[/SystemCard]
+
+[SystemCard]
+	id = Empty10
+[/SystemCard]
+
+[SystemCard]
+	id = Empty11
+[/SystemCard]
+
+[SystemCard]
+	id = Empty12
+[/SystemCard]
+
+[SystemCard]
+	id = EmptyWormHoleA
+	[wormhole]
+		type=A
+	[/wormhole]
+[/SystemCard]
+
+[SystemCard]
+	id = EmptyWormHoleB
+	[wormhole]
+		type=B
+	[/wormhole]
+[/SystemCard]

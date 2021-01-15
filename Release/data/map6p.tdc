@@ -1,0 +1,27 @@
+#player = 
+#totalsystems = 
+#red = 
+#empty = 
+#planet = 
+#remove = 
+#diameter = 
+#[maph]
+#[/maph]
+#[mapv]
+#[/mapv]
+players = 6
+totalsystems = 37
+red = 4
+empty = 8
+planet = 20
+remove = 2
+diameter = 7
+[maph]
+ -  a  3  3  b  -  -
+-  3  2  2  2  3  -
+ 3  2  1  1  2  3  -
+f  2  1  0  1  2  c
+ 3  2  1  1  2  3  -
+-  3  2  2  2  3  -
+ -  e  3  3  d  -  -
+[/maph]

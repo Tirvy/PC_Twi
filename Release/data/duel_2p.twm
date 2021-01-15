@@ -1,0 +1,43 @@
+#Основные параметры
+#Name - название карты (для выбора карты)
+#Players %p% - число игроков
+
+Name Duel_2p
+players 2
+
+#Гексы
+#Fixed %id% %x% %y% - фиксированный гекс с id и координатами x, y
+#HomeSystem %n% %x% %y% - домашняя система игрока с номером n
+#ExtraHomeSystem %n% %x% %y% - дополнительный гекс для домашней системы (Креусс)
+#RandomEmpty %x% %y% - случайная пустая
+#RandomSpecial %x% %y% - случайная специальная
+#RandomPlanet %x% %y% - случайная планетная
+#RandomOnePlanet %x% %y% - случайная с одной планетой
+#RandomMultiPlanet %x% %y% - случайная с несколькими планетами
+#Remove %id% - убрать гекс из колоды
+#Slot %x %y %r - слот для выкладки гексов круга r
+ 
+<hexes>
+Fixed Saudor			-1 	2
+Fixed VegaMinorVegaMajor	0 	2
+Fixed EmptyWormHoleA		-2 	1
+Fixed Empty01	 		-1	1
+Fixed Empty03		0	1
+Fixed Lesab 			1	1
+Fixed VefutII			-2 	0
+Fixed SumerianArcturus 		-1 	0
+Fixed Mecatol		0 	0
+Fixed TsionBellatrix 		1 	0
+Fixed Capha			2	0
+Fixed Garbozia			-2	-1
+Fixed Empty04			-1	-1
+Fixed Empty02			0	-1
+Fixed EmptyWormHoleB		1	-1
+Fixed MellonZohbat		0	-2
+Fixed Perimeter			1	-2
+HomeSystem 	1 		1 	2
+ExtraHomeSystem 1 		2 	4
+HomeSystem 	2 		-1 	-2
+ExtraHomeSystem 2 		-2 	-4
+Fixed Mallice 			2 	-3
+</hexes>

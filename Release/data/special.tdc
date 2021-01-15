@@ -1,0 +1,82 @@
+#[SystemCard]
+#	id = 
+#	image=
+#	danger=
+#	[wormhole]
+#		type=
+#	[/wormhole]
+#	[planet]
+#		id = 
+#		production=
+#		influence=
+#		techcolour=
+#		techquantity=
+#		special=
+#	[/planet]
+#[/SystemCard]
+
+[SystemCard]
+	id = MecatolRex
+	[planet]
+		id = Mecatol_Rex
+		production=1
+		influence=6
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Mallice
+	[planet]
+		id = Mallice
+		production=0
+		influence=3
+	[/planet]
+	[wormhole]
+		type=A
+	[/wormhole]
+	[wormhole]
+		type=B
+	[/wormhole]
+[/SystemCard]
+
+[SystemCard]
+	id = Creuss_Extra
+	[wormhole]
+		type=D
+	[/wormhole]
+	[planet]
+		id = Creuss
+		production=4
+		influence=2
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = MuaatSupernova
+	danger=Supernova
+[/SystemCard]
+
+[SystemCard]
+	id = EmptyWormHoleA01
+	[wormhole]
+		type=A
+	[/wormhole]
+[/SystemCard]
+
+[SystemCard]
+	id = EmptyWormHoleA02
+	[wormhole]
+		type=A
+	[/wormhole]
+[/SystemCard]
+
+[SystemCard]
+	id = EmptyWormHoleB01
+	[wormhole]
+		type=B
+	[/wormhole]
+[/SystemCard]
+
+[SystemCard]
+	id = Slot
+[/SystemCard]

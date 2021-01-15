@@ -1,0 +1,549 @@
+#[SystemCard]
+#	id = 
+#	image=
+#	danger=
+#	[wormhole]
+#		type=
+#	[/wormhole]
+#	[planet]
+#		id = 
+#		production=
+#		influence=
+#		techcolour=
+#		techquantity=
+#		special=
+#	[/planet]
+#[/SystemCard]
+
+[SystemCard]
+	id = SumerianArcturus
+	[planet]
+		id = Sumerian
+		production=2
+		influence=2
+		special=Station
+	[/planet]
+	[planet]
+		id = Arcturus
+		production=1
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = TsionBellatrix
+	[planet]
+		id = Tsion
+		production=2
+		influence=2
+		special=Station
+	[/planet]
+	[planet]
+		id = Bellatrix
+		production=0
+		influence=1
+		techcolour=red
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Lesab
+	[planet]
+		id = Lesab
+		production=2
+		influence=1
+		techcolour=green
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Saudor
+	[planet]
+		id = Saudor
+		production=2
+		influence=2
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = TarMann
+	[planet]
+		id = TarMann
+		production=1
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Garbozia
+	[planet]
+		id = Garbozia
+		production=2
+		influence=1
+		techcolour=green
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Capha
+	[planet]
+		id = Capha
+		production=3
+		influence=0
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = HopesEnd
+	[planet]
+		id = Hopes_End
+		production=3
+		influence=0
+		special=ShockTroops
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Lodor
+	[wormhole]
+		type=A
+	[/wormhole]
+	[planet]
+		id = Lodor
+		production=3
+		influence=1
+		techcolour=Green
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = LazarSakulag
+	[planet]
+		id = Lazar
+		production=1
+		influence=0
+	[/planet]
+	[planet]
+		id = Sakulag
+		production=2
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Quann
+	[wormhole]
+		type=B
+	[/wormhole]
+	[planet]
+		id = Quann
+		production=2
+		influence=1
+		techcolour=Green
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = QucenNRaron
+	[planet]
+		id = QucenN
+		production=1
+		influence=2
+	[/planet]
+	[planet]
+		id = Raron
+		production=0
+		influence=3
+		techcolour=Green
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = CentauriGral
+	[planet]
+		id = Centauri
+		production=1
+		influence=3
+	[/planet]
+	[planet]
+		id = Gral
+		production=1
+		influence=1
+		techcolour=Blue
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = TequRanTorkan
+	[planet]
+		id = TequRan
+		production=2
+		influence=0
+		techcolour=Red
+		techquantity=1
+	[/planet]
+	[planet]
+		id = Torkan
+		production=0
+		influence=3
+		techcolour=Blue
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = CoorneeqResculon
+	[planet]
+		id = Coorneeq
+		production=1
+		influence=2
+		techcolour=Red
+		techquantity=1
+	[/planet]
+	[planet]
+		id = Resculon
+		production=2
+		influence=0
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = HercalorTiamat
+	[planet]
+		id = Hercalor
+		production=1
+		influence=0
+		techcolour=Yellow
+		techquantity=1
+	[/planet]
+	[planet]
+		id = Tiamat
+		production=1
+		influence=2
+		techcolour=Yellow
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = ArinamMeer
+	[planet]
+		id = Arinam
+		production=1
+		influence=2
+		techcolour=Blue
+		techquantity=1
+	[/planet]
+	[planet]
+		id = Meer
+		production=0
+		influence=4
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = DalBoothaXeehan
+	[planet]
+		id = DalBootha
+		production=0
+		influence=2
+		techcolour=Red
+		techquantity=1
+	[/planet]
+	[planet]
+		id = Xeehan
+		production=1
+		influence=1
+		techcolour=Green
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = NewAlbionStarpoint
+	[planet]
+		id = NewAlbion
+		production=1
+		influence=1
+		techcolour=Green
+		techquantity=1
+	[/planet]
+	[planet]
+		id = Starpoint
+		production=3
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = AbyzFria
+	[planet]
+		id = Abyz
+		production=3
+		influence=0
+	[/planet]
+	[planet]
+		id = Fria
+		production=2
+		influence=0
+		techcolour=Blue
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = LisisVelnor
+	[planet]
+		id = Lisis
+		production=2
+		influence=2
+	[/planet]
+	[planet]
+		id = Velnor
+		production=2
+		influence=0
+		techcolour=Red
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = BeregLirtaIV
+	[planet]
+		id = Bereg
+		production=3
+		influence=1
+		techcolour=Red
+		techquantity=1
+	[/planet]
+	[planet]
+		id = LirtaIV
+		production=2
+		influence=3
+		techcolour=Green
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = AshtrothLokiAbaddon
+	[planet]
+		id = Ashtroth
+		production=2
+		influence=0
+	[/planet]
+	[planet]
+		id = Loki
+		production=1
+		influence=2
+	[/planet]
+	[planet]
+		id = Abaddon
+		production=1
+		influence=0
+		techcolour=Red
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = VegaMinorVegaMajor
+	[planet]
+		id = VegaMinor
+		production=1
+		influence=2
+		techcolour=Blue
+		techquantity=1
+	[/planet]
+	[planet]
+		id = VegaMajor
+		production=2
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = MellonZohbat
+	[planet]
+		id = Mellon
+		production=0
+		influence=2
+	[/planet]
+	[planet]
+		id = Zohbat
+		production=3
+		influence=1
+		techcolour=Blue
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = ArnorLor
+	[planet]
+		id = Arnor
+		production=2
+		influence=1
+	[/planet]
+	[planet]
+		id = Lor
+		production=1
+		influence=2
+		techcolour=Red
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = RigelIRigelIIRigelIII
+	[planet]
+		id = RigelI
+		production=0
+		influence=1
+		techcolour=Green
+		techquantity=1
+	[/planet]
+	[planet]
+		id = RigelII
+		production=1
+		influence=2
+	[/planet]
+	[planet]
+		id = RigelIII
+		production=1
+		influence=1
+		techcolour=Blue
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Wellon
+	[planet]
+		id = Wellon
+		production=1
+		influence=2
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Perimeter
+	[planet]
+		id = Perimeter
+		production=2
+		influence=2
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Sem-Lore
+	[planet]
+		id = Sem-Lore
+		production=3
+		influence=2
+		techcolour=Yellow
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = MeharXull
+	[planet]
+		id = MeharXull
+		production=1
+		influence=3
+		techcolour=Blue
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Mirage
+	[planet]
+		id = Mirage
+		production=1
+		influence=2
+		special=Fighters
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Primor
+	[planet]
+		id = Primor
+		production=2
+		influence=1
+		special=GroundForces
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Faunus
+	[planet]
+		id = Faunus
+		production=1
+		influence=3
+		techcolour=Green
+		techquantity=2
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Thibah
+	[planet]
+		id = Thibah
+		production=1
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Tempesta
+	[planet]
+		id = Tempesta
+		production=1
+		influence=1
+		techcolour=Blue
+		techquantity=2
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = ElNath
+	[planet]
+		id = ElNath
+		production=2
+		influence=0
+		techcolour=Blue
+		techquantity=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Industrex
+	[planet]
+		id = Industrex
+		production=2
+		influence=0
+		techcolour=Red
+		techquantity=2
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = VefutII
+	[planet]
+		id = VefutII
+		production=2
+		influence=0
+		techcolour=Red
+		techquantity=1
+	[/planet]
+[/SystemCard]

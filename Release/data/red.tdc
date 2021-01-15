@@ -1,0 +1,91 @@
+#[SystemCard]
+#	id = 
+#	image=
+#	danger=
+#	[wormhole]
+#		type=
+#	[/wormhole]
+#	[planet]
+#		id = 
+#		production=
+#		influence=
+#		techcolour=
+#		techquantity=
+#		special=
+#	[/planet]
+#[/SystemCard]
+
+[SystemCard]
+	id = Everra
+	danger=Nebula
+	[planet]
+		id = Everra
+		production=3
+		influence=1
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Cormund
+	danger=GravityRift
+	[planet]
+		id = Cormund
+		production=2
+		influence=0
+	[/planet]
+[/SystemCard]
+
+[SystemCard]
+	id = Nebula01
+	danger=Nebula
+[/SystemCard]
+
+[SystemCard]
+	id = Nebula02
+	danger=Nebula
+[/SystemCard]
+
+[SystemCard]
+	id = Asteroids01
+	danger=Asteroids
+[/SystemCard]
+
+[SystemCard]
+	id = Asteroids02
+	danger=Asteroids
+[/SystemCard]
+
+[SystemCard]
+	id = Asteroids03
+	danger=Asteroids
+[/SystemCard]
+
+[SystemCard]
+	id = Asteroids04
+	danger=Asteroids
+[/SystemCard]
+
+[SystemCard]
+	id = GravityRift01
+	danger=GravityRift
+[/SystemCard]
+
+[SystemCard]
+	id = IonStorm01
+	danger=IonStorm
+[/SystemCard]
+
+[SystemCard]
+	id = IonStorm02
+	danger=IonStorm
+[/SystemCard]
+
+[SystemCard]
+	id = Supernova01
+	danger=Supernova
+[/SystemCard]
+
+[SystemCard]
+	id = Supernova02
+	danger=Supernova
+[/SystemCard]

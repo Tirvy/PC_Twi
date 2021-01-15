@@ -1,0 +1,72 @@
+#Основные параметры
+#Name - название карты (для выбора карты)
+#Players %p% - число игроков
+
+Name Created_4p
+players 4
+
+Created 20 8 4 0
+
+#Created %p %e %s %r
+#если есть Created, то галактика будет выкладываться
+#p - planet systems
+#e - empty
+#s - special
+#r - remove
+
+#Гексы
+#Fixed %id% %x% %y% - фиксированный гекс с id и координатами x, y
+#HomeSystem %n% %x% %y% - домашняя система игрока с номером n
+#ExtraHomeSystem %n% %x% %y% - дополнительный гекс для домашней системы (Креусс)
+#RandomEmpty %x% %y% - случайная пустая
+#RandomSpecial %x% %y% - случайная специальная
+#RandomPlanet %x% %y% - случайная планетная
+#RandomOnePlanet %x% %y% - случайная с одной планетой
+#RandomMultiPlanet %x% %y% - случайная с несколькими планетами
+#Remove %id% - убрать гекс из колоды
+#Slot %x %y - слот для выкладки
+ 
+<hexes>
+Slot 			-2 	3
+Slot			-1 	3
+Slot			0 	3
+Slot	 		1	3
+Slot			-1	2
+Slot			0	2
+Slot			1 	2
+Slot			-3 	1
+Slot			-2 	1
+Slot			-1 	1
+Slot			0 	1
+Slot			1 	1
+Slot	 		2 	1
+Slot			-3 	0
+Slot			-2 	0
+Slot 			-1 	0
+Fixed MecatolRex 	0 	0
+Slot			1 	0
+Slot	 		2 	0
+Slot			3 	0
+Slot			-3 	-1
+Slot 			-2 	-1
+Slot			-1 	-1
+Slot			0 	-1
+Slot	 		1 	-1
+Slot			2 	-1
+Slot			-1 	-2
+Slot			0 	-2
+Slot			1 	-2
+Slot			-2 	-3
+Slot			-1 	-3
+Slot			0	-3
+Slot	 		1 	-3
+HomeSystem 	1 		-2 	-2
+ExtraHomeSystem 1 		-4 	-3
+HomeSystem 	4 		2 	-2
+ExtraHomeSystem 4 		3 	-3
+HomeSystem 	3 		2 	2
+ExtraHomeSystem 3 		3 	3
+HomeSystem 	2 		-2 	2
+ExtraHomeSystem 2 		-4 	3
+Fixed Mallice 			4 	1
+</hexes>
